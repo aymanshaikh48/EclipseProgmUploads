@@ -1,0 +1,16 @@
+{
+    "projectName": "Programatic model 1",
+    "username": "ayman.shaikh@gmail.com",
+    "id": "d6634250-d6a4-11e8-a303-9fd26b8e756b",
+    "namespace": "",
+    "orgType": "developer",
+    "loginUrl": "https://login.salesforce.com/",
+    "instanceUrl": "https://ap4.salesforce.com",
+    "workspace": "C:\\Users\\ayman.shaikh\\Documents",
+    "subscription": [
+        "ApexClass",
+        "ApexComponent",
+        "ApexPage",
+        "ApexTrigger"
+    ]
+}

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?p2f version='1.0.0'?>
+<p2f version='1.0.0'>
+  <ius size='2'>
+    <iu id='com.salesforce.ide.feature.feature.group' name='Force.com IDE' version='36.0.0.201601221512'>
+      <repositories size='2'>
+        <repository location='https://developer.salesforce.com/media/force-ide/eclipse42/'/>
+        <repository location='https://developer.salesforce.com/media/force-ide/eclipse45'/>
+      </repositories>
+    </iu>
+    <iu id='com.salesforce.ide.debugger.feature.feature.group' name='Force.com IDE Debugger' version='33.0.0.201504071133'>
+      <repositories size='2'>
+        <repository location='https://developer.salesforce.com/media/force-ide/eclipse42/'/>
+        <repository location='https://developer.salesforce.com/media/force-ide/eclipse45'/>
+      </repositories>
+    </iu>
+  </ius>
+</p2f>

@@ -1,0 +1,82 @@
+44.0 APEX_CODE,FINEST;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;NBA,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,INFO;WAVE,INFO;WORKFLOW,INFO
+Execute Anonymous: DatabaseQueryAndSearch objDatabaseQueryAndSearch = new DatabaseQueryAndSearch();
+Execute Anonymous: objDatabaseQueryAndSearch.DatabaseQuery();
+05:47:57.1 (1205236)|USER_INFO|[EXTERNAL]|0056F00000ATCAZ|ayman.shaikh@gmail.com|Pacific Standard Time|GMT-07:00
+05:47:57.1 (1225891)|EXECUTION_STARTED
+05:47:57.1 (1230176)|CODE_UNIT_STARTED|[EXTERNAL]|execute_anonymous_apex
+05:47:57.1 (10051181)|VARIABLE_SCOPE_BEGIN|[1]|objDatabaseQueryAndSearch|DatabaseQueryAndSearch|true|false
+05:47:57.1 (10182132)|HEAP_ALLOCATE|[72]|Bytes:3
+05:47:57.1 (10223784)|HEAP_ALLOCATE|[77]|Bytes:152
+05:47:57.1 (10237334)|HEAP_ALLOCATE|[342]|Bytes:408
+05:47:57.1 (10250163)|HEAP_ALLOCATE|[355]|Bytes:408
+05:47:57.1 (10262367)|HEAP_ALLOCATE|[467]|Bytes:48
+05:47:57.1 (10303889)|HEAP_ALLOCATE|[139]|Bytes:6
+05:47:57.1 (10325651)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:3
+05:47:57.1 (10353542)|STATEMENT_EXECUTE|[1]
+05:47:57.1 (10356346)|STATEMENT_EXECUTE|[1]
+05:47:57.1 (10359959)|HEAP_ALLOCATE|[1]|Bytes:3
+05:47:57.1 (10389706)|METHOD_ENTRY|[1]|01p6F00000MRIMH|DatabaseQueryAndSearch.DatabaseQueryAndSearch()
+05:47:57.1 (10396472)|STATEMENT_EXECUTE|[1]
+05:47:57.1 (10399992)|STATEMENT_EXECUTE|[1]
+05:47:57.1 (10441562)|HEAP_ALLOCATE|[50]|Bytes:5
+05:47:57.1 (10464469)|HEAP_ALLOCATE|[56]|Bytes:5
+05:47:57.1 (10473377)|HEAP_ALLOCATE|[64]|Bytes:7
+05:47:57.1 (10492059)|SYSTEM_MODE_ENTER|false
+05:47:57.1 (10503976)|HEAP_ALLOCATE|[1]|Bytes:5
+05:47:57.1 (10511533)|SYSTEM_MODE_EXIT|false
+05:47:57.1 (10519637)|METHOD_EXIT|[1]|DatabaseQueryAndSearch
+05:47:57.1 (10533515)|HEAP_ALLOCATE|[1]|Bytes:4
+05:47:57.1 (10556166)|SYSTEM_MODE_ENTER|false
+05:47:57.1 (10577068)|HEAP_ALLOCATE|[1]|Bytes:5
+05:47:57.1 (10588646)|CONSTRUCTOR_ENTRY|[1]|01p6F00000MRIMH|<init>()|DatabaseQueryAndSearch
+05:47:57.1 (10616564)|VARIABLE_SCOPE_BEGIN|[1]|this|DatabaseQueryAndSearch|true|false
+05:47:57.1 (10658877)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x2dfd2d2a
+05:47:57.1 (10668543)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:5
+05:47:57.1 (10677684)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:6
+05:47:57.1 (10715483)|STATEMENT_EXECUTE|[1]
+05:47:57.1 (10720164)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:5
+05:47:57.1 (10734875)|CONSTRUCTOR_EXIT|[1]|01p6F00000MRIMH|<init>()|DatabaseQueryAndSearch
+05:47:57.1 (10742621)|SYSTEM_MODE_EXIT|false
+05:47:57.1 (10762281)|VARIABLE_ASSIGNMENT|[1]|objDatabaseQueryAndSearch|{}|0x2dfd2d2a
+05:47:57.1 (10768921)|STATEMENT_EXECUTE|[2]
+05:47:57.1 (10794338)|SYSTEM_MODE_ENTER|false
+05:47:57.1 (10810033)|HEAP_ALLOCATE|[2]|Bytes:5
+05:47:57.1 (10834026)|METHOD_ENTRY|[2]|01p6F00000MRIMH|DatabaseQueryAndSearch.DatabaseQuery()
+05:47:57.1 (10858555)|VARIABLE_SCOPE_BEGIN|[2]|this|DatabaseQueryAndSearch|true|false
+05:47:57.1 (10875404)|VARIABLE_ASSIGNMENT|[2]|this|{}|0x2dfd2d2a
+05:47:57.1 (10888624)|HEAP_ALLOCATE|[3]|Bytes:5
+05:47:57.1 (10893437)|STATEMENT_EXECUTE|[2]
+05:47:57.1 (10895153)|STATEMENT_EXECUTE|[3]
+05:47:57.1 (10898270)|HEAP_ALLOCATE|[3]|Bytes:5
+05:47:57.1 (10905523)|VARIABLE_SCOPE_BEGIN|[3]|myTestString|String|false|false
+05:47:57.1 (10919282)|VARIABLE_ASSIGNMENT|[3]|myTestString|"Ayman"
+05:47:57.1 (10923572)|STATEMENT_EXECUTE|[5]
+05:47:57.1 (10925943)|HEAP_ALLOCATE|[5]|Bytes:54
+05:47:57.1 (11200348)|EXCEPTION_THROWN|[5]|System.QueryException: sObject type 'Employees__c' is not supported. If you are attempting to use a custom object, be sure to append the '__c' after the entity name. Please reference your WSDL or the describe call for the appropriate names.
+05:47:57.1 (11286460)|HEAP_ALLOCATE|[5]|Bytes:221
+05:47:57.1 (11311574)|METHOD_EXIT|[2]|01p6F00000MRIMH|DatabaseQueryAndSearch.DatabaseQuery()
+05:47:57.1 (11319380)|SYSTEM_MODE_EXIT|false
+05:47:57.1 (11410545)|FATAL_ERROR|System.QueryException: sObject type 'Employees__c' is not supported. If you are attempting to use a custom object, be sure to append the '__c' after the entity name. Please reference your WSDL or the describe call for the appropriate names.
+
+Class.DatabaseQueryAndSearch.DatabaseQuery: line 5, column 1
+AnonymousBlock: line 2, column 1
+AnonymousBlock: line 2, column 1
+05:47:57.11 (11456107)|CUMULATIVE_LIMIT_USAGE
+05:47:57.11 (11456107)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+05:47:57.11 (11456107)|CUMULATIVE_LIMIT_USAGE_END
+
+05:47:57.1 (11498257)|CODE_UNIT_FINISHED|execute_anonymous_apex
+05:47:57.1 (12394248)|EXECUTION_FINISHED

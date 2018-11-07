@@ -1,0 +1,420 @@
+44.0 APEX_CODE,FINEST;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;NBA,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,INFO;WAVE,INFO;WORKFLOW,INFO
+Execute Anonymous: AccountProgram objAccountProgram = new AccountProgram();
+Execute Anonymous: objAccountProgram.queryOnAccount1();
+Execute Anonymous: objAccountProgram.queryOnAccount2();
+Execute Anonymous: objAccountProgram.queryOnAccount3();
+03:11:05.1 (1175524)|USER_INFO|[EXTERNAL]|0056F00000ATCAZ|ayman.shaikh@gmail.com|Pacific Standard Time|GMT-07:00
+03:11:05.1 (1195331)|EXECUTION_STARTED
+03:11:05.1 (1200470)|CODE_UNIT_STARTED|[EXTERNAL]|execute_anonymous_apex
+03:11:05.1 (9151627)|VARIABLE_SCOPE_BEGIN|[1]|objAccountProgram|AccountProgram|true|false
+03:11:05.1 (9303066)|HEAP_ALLOCATE|[72]|Bytes:3
+03:11:05.1 (9348893)|HEAP_ALLOCATE|[77]|Bytes:152
+03:11:05.1 (9370362)|HEAP_ALLOCATE|[342]|Bytes:408
+03:11:05.1 (9393783)|HEAP_ALLOCATE|[355]|Bytes:408
+03:11:05.1 (9415752)|HEAP_ALLOCATE|[467]|Bytes:48
+03:11:05.1 (9453036)|HEAP_ALLOCATE|[139]|Bytes:6
+03:11:05.1 (9478245)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:7
+03:11:05.1 (9521455)|STATEMENT_EXECUTE|[1]
+03:11:05.1 (9525839)|STATEMENT_EXECUTE|[1]
+03:11:05.1 (9531032)|HEAP_ALLOCATE|[1]|Bytes:7
+03:11:05.1 (9539516)|HEAP_ALLOCATE|[1]|Bytes:15
+03:11:05.1 (9579127)|METHOD_ENTRY|[1]|01p6F00000MR33H|AccountProgram.AccountProgram()
+03:11:05.1 (9589316)|STATEMENT_EXECUTE|[1]
+03:11:05.1 (9594423)|STATEMENT_EXECUTE|[1]
+03:11:05.1 (9629792)|HEAP_ALLOCATE|[50]|Bytes:5
+03:11:05.1 (9658534)|HEAP_ALLOCATE|[56]|Bytes:5
+03:11:05.1 (9671597)|HEAP_ALLOCATE|[64]|Bytes:7
+03:11:05.1 (9694324)|SYSTEM_MODE_ENTER|false
+03:11:05.1 (9711920)|HEAP_ALLOCATE|[1]|Bytes:5
+03:11:05.1 (9721064)|SYSTEM_MODE_EXIT|false
+03:11:05.1 (9733549)|METHOD_EXIT|[1]|AccountProgram
+03:11:05.1 (9751226)|HEAP_ALLOCATE|[1]|Bytes:4
+03:11:05.1 (9781656)|SYSTEM_MODE_ENTER|false
+03:11:05.1 (9811333)|HEAP_ALLOCATE|[1]|Bytes:5
+03:11:05.1 (9828395)|CONSTRUCTOR_ENTRY|[1]|01p6F00000MR33H|<init>()|AccountProgram
+03:11:05.1 (9865244)|VARIABLE_SCOPE_BEGIN|[1]|this|AccountProgram|true|false
+03:11:05.1 (9915153)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x22a9873e
+03:11:05.1 (9930843)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:5
+03:11:05.1 (9942457)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:6
+03:11:05.1 (9989500)|STATEMENT_EXECUTE|[1]
+03:11:05.1 (9996289)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:5
+03:11:05.1 (10008178)|CONSTRUCTOR_EXIT|[1]|01p6F00000MR33H|<init>()|AccountProgram
+03:11:05.1 (10020337)|SYSTEM_MODE_EXIT|false
+03:11:05.1 (10045141)|VARIABLE_ASSIGNMENT|[1]|objAccountProgram|{}|0x22a9873e
+03:11:05.1 (10055226)|STATEMENT_EXECUTE|[2]
+03:11:05.1 (10082911)|SYSTEM_MODE_ENTER|false
+03:11:05.1 (10105255)|HEAP_ALLOCATE|[2]|Bytes:5
+03:11:05.1 (10140113)|METHOD_ENTRY|[2]|01p6F00000MR33H|AccountProgram.queryOnAccount1()
+03:11:05.1 (10171657)|VARIABLE_SCOPE_BEGIN|[2]|this|AccountProgram|true|false
+03:11:05.1 (10194882)|VARIABLE_ASSIGNMENT|[2]|this|{}|0x22a9873e
+03:11:05.1 (10213677)|HEAP_ALLOCATE|[4]|Bytes:5
+03:11:05.1 (10220381)|STATEMENT_EXECUTE|[2]
+03:11:05.1 (10223144)|STATEMENT_EXECUTE|[4]
+03:11:05.1 (10227156)|HEAP_ALLOCATE|[4]|Bytes:24
+03:11:05.1 (10252034)|HEAP_ALLOCATE|[4]|Bytes:4
+03:11:05.1 (10556781)|SOQL_EXECUTE_BEGIN|[4]|Aggregations:0|SELECT Name FROM Account
+03:11:05.1 (16251866)|SOQL_EXECUTE_END|[4]|Rows:14
+03:11:05.1 (16293099)|HEAP_ALLOCATE|[4]|Bytes:60
+03:11:05.1 (16333565)|HEAP_ALLOCATE|[4]|Bytes:782
+03:11:05.1 (16460470)|HEAP_ALLOCATE|[4]|Bytes:60
+03:11:05.1 (16479510)|VARIABLE_SCOPE_BEGIN|[4]|AccName1|List<Account>|true|false
+03:11:05.1 (16508398)|VARIABLE_ASSIGNMENT|[4]|AccName1|"List of size 14 too large to display"|0x65c3d22c
+03:11:05.1 (16515852)|STATEMENT_EXECUTE|[5]
+03:11:05.1 (16521097)|HEAP_ALLOCATE|[5]|Bytes:17
+03:11:05.1 (16581283)|USER_DEBUG|[5]|DEBUG|Advanced For Loop
+03:11:05.1 (16787576)|HEAP_ALLOCATE|[6]|Bytes:5
+03:11:05.1 (16826697)|HEAP_ALLOCATE|[6]|Bytes:12
+03:11:05.1 (16838264)|VARIABLE_SCOPE_BEGIN|[6]|acc|Account|true|false
+03:11:05.1 (16863337)|VARIABLE_ASSIGNMENT|[6]|acc|{"Name":"sForce","Id":"0016F00002o0fjCQAQ"}|0x2fde7f9f
+03:11:05.1 (16871774)|STATEMENT_EXECUTE|[6]
+03:11:05.1 (16873967)|STATEMENT_EXECUTE|[7]
+03:11:05.1 (16877573)|HEAP_ALLOCATE|[7]|Bytes:13
+03:11:05.1 (16965603)|HEAP_ALLOCATE|[7]|Bytes:44
+03:11:05.1 (16988941)|HEAP_ALLOCATE|[7]|Bytes:57
+03:11:05.1 (17000594)|USER_DEBUG|[7]|DEBUG|Account Name Account:{Name=sForce, Id=0016F00002o0fjCQAQ}
+03:11:05.1 (17018879)|HEAP_ALLOCATE|[6]|Bytes:5
+03:11:05.1 (17030813)|HEAP_ALLOCATE|[6]|Bytes:12
+03:11:05.1 (17037779)|VARIABLE_SCOPE_BEGIN|[6]|acc|Account|true|false
+03:11:05.1 (17057458)|VARIABLE_ASSIGNMENT|[6]|acc|{"Name":"University of Arizon (1 more) ...","Id":"0016F00002o0fj8QAA"}|0x5bd48e65
+03:11:05.1 (17063914)|STATEMENT_EXECUTE|[6]
+03:11:05.1 (17065823)|STATEMENT_EXECUTE|[7]
+03:11:05.1 (17093029)|HEAP_ALLOCATE|[7]|Bytes:59
+03:11:05.1 (17105350)|HEAP_ALLOCATE|[7]|Bytes:72
+03:11:05.1 (17113365)|USER_DEBUG|[7]|DEBUG|Account Name Account:{Name=University of Arizona, Id=0016F00002o0fj8QAA}
+03:11:05.1 (17127664)|HEAP_ALLOCATE|[6]|Bytes:5
+03:11:05.1 (17138079)|HEAP_ALLOCATE|[6]|Bytes:12
+03:11:05.1 (17144031)|VARIABLE_SCOPE_BEGIN|[6]|acc|Account|true|false
+03:11:05.1 (17159692)|VARIABLE_ASSIGNMENT|[6]|acc|{"Name":"United Oil & Gas Cor (2 more) ...","Id":"0016F00002o0fj6QAA"}|0x3e97a03d
+03:11:05.1 (17165437)|STATEMENT_EXECUTE|[6]
+03:11:05.1 (17167266)|STATEMENT_EXECUTE|[7]
+03:11:05.1 (17188865)|HEAP_ALLOCATE|[7]|Bytes:60
+03:11:05.1 (17200078)|HEAP_ALLOCATE|[7]|Bytes:73
+03:11:05.1 (17207439)|USER_DEBUG|[7]|DEBUG|Account Name Account:{Name=United Oil & Gas Corp., Id=0016F00002o0fj6QAA}
+03:11:05.1 (17221065)|HEAP_ALLOCATE|[6]|Bytes:5
+03:11:05.1 (17230364)|HEAP_ALLOCATE|[6]|Bytes:12
+03:11:05.1 (17235918)|VARIABLE_SCOPE_BEGIN|[6]|acc|Account|true|false
+03:11:05.1 (17249723)|VARIABLE_ASSIGNMENT|[6]|acc|{"Name":"GenePoint","Id":"0016F00002o0fjBQAQ"}|0xda8224f
+03:11:05.1 (17255791)|STATEMENT_EXECUTE|[6]
+03:11:05.1 (17257566)|STATEMENT_EXECUTE|[7]
+03:11:05.1 (17277726)|HEAP_ALLOCATE|[7]|Bytes:47
+03:11:05.1 (17288954)|HEAP_ALLOCATE|[7]|Bytes:60
+03:11:05.1 (17296168)|USER_DEBUG|[7]|DEBUG|Account Name Account:{Name=GenePoint, Id=0016F00002o0fjBQAQ}
+03:11:05.1 (17309054)|HEAP_ALLOCATE|[6]|Bytes:5
+03:11:05.1 (17318659)|HEAP_ALLOCATE|[6]|Bytes:12
+03:11:05.1 (17323660)|VARIABLE_SCOPE_BEGIN|[6]|acc|Account|true|false
+03:11:05.1 (17337901)|VARIABLE_ASSIGNMENT|[6]|acc|{"Name":"United Oil & Gas, UK","Id":"0016F00002o0fj9QAA"}|0x51d696e2
+03:11:05.1 (17343478)|STATEMENT_EXECUTE|[6]
+03:11:05.1 (17345286)|STATEMENT_EXECUTE|[7]
+03:11:05.1 (17365043)|HEAP_ALLOCATE|[7]|Bytes:58
+03:11:05.1 (17375965)|HEAP_ALLOCATE|[7]|Bytes:71
+03:11:05.1 (17383378)|USER_DEBUG|[7]|DEBUG|Account Name Account:{Name=United Oil & Gas, UK, Id=0016F00002o0fj9QAA}
+03:11:05.1 (17395735)|HEAP_ALLOCATE|[6]|Bytes:5
+03:11:05.1 (17404631)|HEAP_ALLOCATE|[6]|Bytes:12
+03:11:05.1 (17409763)|VARIABLE_SCOPE_BEGIN|[6]|acc|Account|true|false
+03:11:05.1 (17424508)|VARIABLE_ASSIGNMENT|[6]|acc|{"Name":"United Oil & Gas, Si (7 more) ...","Id":"0016F00002o0fjAQAQ"}|0x2e8e8d1b
+03:11:05.1 (17430048)|STATEMENT_EXECUTE|[6]
+03:11:05.1 (17432202)|STATEMENT_EXECUTE|[7]
+03:11:05.1 (17451927)|HEAP_ALLOCATE|[7]|Bytes:65
+03:11:05.1 (17462642)|HEAP_ALLOCATE|[7]|Bytes:78
+03:11:05.1 (17470003)|USER_DEBUG|[7]|DEBUG|Account Name Account:{Name=United Oil & Gas, Singapore, Id=0016F00002o0fjAQAQ}
+03:11:05.1 (17482456)|HEAP_ALLOCATE|[6]|Bytes:5
+03:11:05.1 (17490970)|HEAP_ALLOCATE|[6]|Bytes:12
+03:11:05.1 (17496377)|VARIABLE_SCOPE_BEGIN|[6]|acc|Account|true|false
+03:11:05.1 (17509972)|VARIABLE_ASSIGNMENT|[6]|acc|{"Name":"Edge Communications","Id":"0016F00002o0fj1QAA"}|0x2d9b56bf
+03:11:05.1 (17516420)|STATEMENT_EXECUTE|[6]
+03:11:05.1 (17518190)|STATEMENT_EXECUTE|[7]
+03:11:05.1 (17537414)|HEAP_ALLOCATE|[7]|Bytes:57
+03:11:05.1 (17547706)|HEAP_ALLOCATE|[7]|Bytes:70
+03:11:05.1 (17554742)|USER_DEBUG|[7]|DEBUG|Account Name Account:{Name=Edge Communications, Id=0016F00002o0fj1QAA}
+03:11:05.1 (17566954)|HEAP_ALLOCATE|[6]|Bytes:5
+03:11:05.1 (17576118)|HEAP_ALLOCATE|[6]|Bytes:12
+03:11:05.1 (17581793)|VARIABLE_SCOPE_BEGIN|[6]|acc|Account|true|false
+03:11:05.1 (17597132)|VARIABLE_ASSIGNMENT|[6]|acc|{"Name":"Burlington Textiles  (15 more) ...","Id":"0016F00002o0fj2QAA"}|0x61eda319
+03:11:05.1 (17606441)|STATEMENT_EXECUTE|[6]
+03:11:05.1 (17608402)|STATEMENT_EXECUTE|[7]
+03:11:05.1 (17629939)|HEAP_ALLOCATE|[7]|Bytes:73
+03:11:05.1 (17640924)|HEAP_ALLOCATE|[7]|Bytes:86
+03:11:05.1 (17648078)|USER_DEBUG|[7]|DEBUG|Account Name Account:{Name=Burlington Textiles Corp of America, Id=0016F00002o0fj2QAA}
+03:11:05.1 (17665632)|HEAP_ALLOCATE|[6]|Bytes:5
+03:11:05.1 (17675400)|HEAP_ALLOCATE|[6]|Bytes:12
+03:11:05.1 (17681138)|VARIABLE_SCOPE_BEGIN|[6]|acc|Account|true|false
+03:11:05.1 (17696255)|VARIABLE_ASSIGNMENT|[6]|acc|{"Name":"Pyramid Construction (5 more) ...","Id":"0016F00002o0fj3QAA"}|0x4e94840
+03:11:05.1 (17702461)|STATEMENT_EXECUTE|[6]
+03:11:05.1 (17704203)|STATEMENT_EXECUTE|[7]
+03:11:05.1 (17724371)|HEAP_ALLOCATE|[7]|Bytes:63
+03:11:05.1 (17735323)|HEAP_ALLOCATE|[7]|Bytes:76
+03:11:05.1 (17742628)|USER_DEBUG|[7]|DEBUG|Account Name Account:{Name=Pyramid Construction Inc., Id=0016F00002o0fj3QAA}
+03:11:05.1 (17755215)|HEAP_ALLOCATE|[6]|Bytes:5
+03:11:05.1 (17764344)|HEAP_ALLOCATE|[6]|Bytes:12
+03:11:05.1 (17769904)|VARIABLE_SCOPE_BEGIN|[6]|acc|Account|true|false
+03:11:05.1 (17783552)|VARIABLE_ASSIGNMENT|[6]|acc|{"Name":"Dickenson plc","Id":"0016F00002o0fj4QAA"}|0x5e55fb93
+03:11:05.1 (17789680)|STATEMENT_EXECUTE|[6]
+03:11:05.1 (17791424)|STATEMENT_EXECUTE|[7]
+03:11:05.1 (17811010)|HEAP_ALLOCATE|[7]|Bytes:51
+03:11:05.1 (17821495)|HEAP_ALLOCATE|[7]|Bytes:64
+03:11:05.1 (17828573)|USER_DEBUG|[7]|DEBUG|Account Name Account:{Name=Dickenson plc, Id=0016F00002o0fj4QAA}
+03:11:05.1 (17840792)|HEAP_ALLOCATE|[6]|Bytes:5
+03:11:05.1 (17849529)|HEAP_ALLOCATE|[6]|Bytes:12
+03:11:05.1 (17855034)|VARIABLE_SCOPE_BEGIN|[6]|acc|Account|true|false
+03:11:05.1 (17869159)|VARIABLE_ASSIGNMENT|[6]|acc|{"Name":"Grand Hotels & Resor (6 more) ...","Id":"0016F00002o0fj5QAA"}|0x290c7048
+03:11:05.1 (17875467)|STATEMENT_EXECUTE|[6]
+03:11:05.1 (17877205)|STATEMENT_EXECUTE|[7]
+03:11:05.1 (17896487)|HEAP_ALLOCATE|[7]|Bytes:64
+03:11:05.1 (17907373)|HEAP_ALLOCATE|[7]|Bytes:77
+03:11:05.1 (17914418)|USER_DEBUG|[7]|DEBUG|Account Name Account:{Name=Grand Hotels & Resorts Ltd, Id=0016F00002o0fj5QAA}
+03:11:05.1 (17926788)|HEAP_ALLOCATE|[6]|Bytes:5
+03:11:05.1 (17935683)|HEAP_ALLOCATE|[6]|Bytes:12
+03:11:05.1 (17941245)|VARIABLE_SCOPE_BEGIN|[6]|acc|Account|true|false
+03:11:05.1 (17956118)|VARIABLE_ASSIGNMENT|[6]|acc|{"Name":"Express Logistics an (11 more) ...","Id":"0016F00002o0fj7QAA"}|0x25f5eb1b
+03:11:05.1 (17962066)|STATEMENT_EXECUTE|[6]
+03:11:05.1 (17963807)|STATEMENT_EXECUTE|[7]
+03:11:05.1 (17982721)|HEAP_ALLOCATE|[7]|Bytes:69
+03:11:05.1 (17993360)|HEAP_ALLOCATE|[7]|Bytes:82
+03:11:05.1 (18001164)|USER_DEBUG|[7]|DEBUG|Account Name Account:{Name=Express Logistics and Transport, Id=0016F00002o0fj7QAA}
+03:11:05.1 (18014084)|HEAP_ALLOCATE|[6]|Bytes:5
+03:11:05.1 (18022858)|HEAP_ALLOCATE|[6]|Bytes:12
+03:11:05.1 (18028203)|VARIABLE_SCOPE_BEGIN|[6]|acc|Account|true|false
+03:11:05.1 (18040934)|VARIABLE_ASSIGNMENT|[6]|acc|{"Name":"Almas","Id":"0016F00002vJCC2QAO"}|0x6b100cad
+03:11:05.1 (18047238)|STATEMENT_EXECUTE|[6]
+03:11:05.1 (18049126)|STATEMENT_EXECUTE|[7]
+03:11:05.1 (18068501)|HEAP_ALLOCATE|[7]|Bytes:43
+03:11:05.1 (18079286)|HEAP_ALLOCATE|[7]|Bytes:56
+03:11:05.1 (18086669)|USER_DEBUG|[7]|DEBUG|Account Name Account:{Name=Almas, Id=0016F00002vJCC2QAO}
+03:11:05.1 (18098844)|HEAP_ALLOCATE|[6]|Bytes:5
+03:11:05.1 (18107568)|HEAP_ALLOCATE|[6]|Bytes:12
+03:11:05.1 (18113025)|VARIABLE_SCOPE_BEGIN|[6]|acc|Account|true|false
+03:11:05.1 (18125749)|VARIABLE_ASSIGNMENT|[6]|acc|{"Name":"Ketki","Id":"0016F00002sP67wQAC"}|0x1a68eb3f
+03:11:05.1 (18131316)|STATEMENT_EXECUTE|[6]
+03:11:05.1 (18133076)|STATEMENT_EXECUTE|[7]
+03:11:05.1 (18152309)|HEAP_ALLOCATE|[7]|Bytes:43
+03:11:05.1 (18163049)|HEAP_ALLOCATE|[7]|Bytes:56
+03:11:05.1 (18170220)|USER_DEBUG|[7]|DEBUG|Account Name Account:{Name=Ketki, Id=0016F00002sP67wQAC}
+03:11:05.1 (18182415)|HEAP_ALLOCATE|[6]|Bytes:5
+03:11:05.1 (18193698)|VARIABLE_ASSIGNMENT|[6]|acc|null|
+03:11:05.1 (18208601)|METHOD_EXIT|[2]|01p6F00000MR33H|AccountProgram.queryOnAccount1()
+03:11:05.1 (18216224)|SYSTEM_MODE_EXIT|false
+03:11:05.1 (18226496)|STATEMENT_EXECUTE|[3]
+03:11:05.1 (18276566)|SYSTEM_MODE_ENTER|false
+03:11:05.1 (18291586)|HEAP_ALLOCATE|[3]|Bytes:5
+03:11:05.1 (18307811)|METHOD_ENTRY|[3]|01p6F00000MR33H|AccountProgram.queryOnAccount2()
+03:11:05.1 (18331717)|VARIABLE_SCOPE_BEGIN|[12]|this|AccountProgram|true|false
+03:11:05.1 (18352481)|VARIABLE_ASSIGNMENT|[12]|this|{}|0x22a9873e
+03:11:05.1 (18365479)|HEAP_ALLOCATE|[14]|Bytes:5
+03:11:05.1 (18370082)|STATEMENT_EXECUTE|[12]
+03:11:05.1 (18372091)|STATEMENT_EXECUTE|[14]
+03:11:05.1 (18389673)|HEAP_ALLOCATE|[14]|Bytes:4
+03:11:05.1 (18522617)|SOQL_EXECUTE_BEGIN|[14]|Aggregations:0|SELECT Name FROM Account
+03:11:05.1 (21527662)|SOQL_EXECUTE_END|[14]|Rows:14
+03:11:05.1 (21553366)|HEAP_ALLOCATE|[14]|Bytes:60
+03:11:05.1 (21580801)|HEAP_ALLOCATE|[14]|Bytes:782
+03:11:05.1 (21609039)|HEAP_ALLOCATE|[14]|Bytes:60
+03:11:05.1 (21620254)|VARIABLE_SCOPE_BEGIN|[14]|AccName2|List<Account>|true|false
+03:11:05.1 (21644918)|VARIABLE_ASSIGNMENT|[14]|AccName2|"List of size 14 too large to display"|0x4c1ee0e4
+03:11:05.1 (21652020)|STATEMENT_EXECUTE|[15]
+03:11:05.1 (21656246)|HEAP_ALLOCATE|[15]|Bytes:20
+03:11:05.1 (21686096)|USER_DEBUG|[15]|DEBUG|Traditional For Loop
+03:11:05.1 (21697274)|STATEMENT_EXECUTE|[16]
+03:11:05.1 (21703066)|VARIABLE_SCOPE_BEGIN|[16]|i|Integer|false|false
+03:11:05.1 (21710994)|HEAP_ALLOCATE|[16]|Bytes:4
+03:11:05.1 (21719836)|VARIABLE_ASSIGNMENT|[16]|i|0
+03:11:05.1 (21750839)|STATEMENT_EXECUTE|[16]
+03:11:05.1 (21753003)|STATEMENT_EXECUTE|[17]
+03:11:05.1 (21847887)|USER_DEBUG|[17]|DEBUG|(Account:{Name=sForce, Id=0016F00002o0fjCQAQ}, Account:{Name=University of Arizona, Id=0016F00002o0fj8QAA}, Account:{Name=United Oil & Gas Corp., Id=0016F00002o0fj6QAA}, Account:{Name=GenePoint, Id=0016F00002o0fjBQAQ}, Account:{Name=United Oil & Gas, UK, Id=0016F00002o0fj9QAA}, Account:{Name=United Oil & Gas, Singapore, Id=0016F00002o0fjAQAQ}, Account:{Name=Edge Communications, Id=0016F00002o0fj1QAA}, Account:{Name=Burlington Textiles Corp of America, Id=0016F00002o0fj2QAA}, Account:{Name=Pyramid Construction Inc., Id=0016F00002o0fj3QAA}, Account:{Name=Dickenson plc, Id=0016F00002o0fj4QAA}, ...)
+03:11:05.1 (21866946)|HEAP_ALLOCATE|[16]|Bytes:4
+03:11:05.1 (21876253)|VARIABLE_ASSIGNMENT|[16]|i|1
+03:11:05.1 (21889075)|STATEMENT_EXECUTE|[16]
+03:11:05.1 (21891321)|STATEMENT_EXECUTE|[17]
+03:11:05.1 (21978885)|USER_DEBUG|[17]|DEBUG|(Account:{Name=sForce, Id=0016F00002o0fjCQAQ}, Account:{Name=University of Arizona, Id=0016F00002o0fj8QAA}, Account:{Name=United Oil & Gas Corp., Id=0016F00002o0fj6QAA}, Account:{Name=GenePoint, Id=0016F00002o0fjBQAQ}, Account:{Name=United Oil & Gas, UK, Id=0016F00002o0fj9QAA}, Account:{Name=United Oil & Gas, Singapore, Id=0016F00002o0fjAQAQ}, Account:{Name=Edge Communications, Id=0016F00002o0fj1QAA}, Account:{Name=Burlington Textiles Corp of America, Id=0016F00002o0fj2QAA}, Account:{Name=Pyramid Construction Inc., Id=0016F00002o0fj3QAA}, Account:{Name=Dickenson plc, Id=0016F00002o0fj4QAA}, ...)
+03:11:05.1 (21995410)|HEAP_ALLOCATE|[16]|Bytes:4
+03:11:05.1 (22003654)|VARIABLE_ASSIGNMENT|[16]|i|2
+03:11:05.1 (22016666)|STATEMENT_EXECUTE|[16]
+03:11:05.1 (22018577)|STATEMENT_EXECUTE|[17]
+03:11:05.1 (22096439)|USER_DEBUG|[17]|DEBUG|(Account:{Name=sForce, Id=0016F00002o0fjCQAQ}, Account:{Name=University of Arizona, Id=0016F00002o0fj8QAA}, Account:{Name=United Oil & Gas Corp., Id=0016F00002o0fj6QAA}, Account:{Name=GenePoint, Id=0016F00002o0fjBQAQ}, Account:{Name=United Oil & Gas, UK, Id=0016F00002o0fj9QAA}, Account:{Name=United Oil & Gas, Singapore, Id=0016F00002o0fjAQAQ}, Account:{Name=Edge Communications, Id=0016F00002o0fj1QAA}, Account:{Name=Burlington Textiles Corp of America, Id=0016F00002o0fj2QAA}, Account:{Name=Pyramid Construction Inc., Id=0016F00002o0fj3QAA}, Account:{Name=Dickenson plc, Id=0016F00002o0fj4QAA}, ...)
+03:11:05.1 (22112124)|HEAP_ALLOCATE|[16]|Bytes:4
+03:11:05.1 (22119722)|VARIABLE_ASSIGNMENT|[16]|i|3
+03:11:05.1 (22130922)|STATEMENT_EXECUTE|[16]
+03:11:05.1 (22132712)|STATEMENT_EXECUTE|[17]
+03:11:05.1 (22194557)|USER_DEBUG|[17]|DEBUG|(Account:{Name=sForce, Id=0016F00002o0fjCQAQ}, Account:{Name=University of Arizona, Id=0016F00002o0fj8QAA}, Account:{Name=United Oil & Gas Corp., Id=0016F00002o0fj6QAA}, Account:{Name=GenePoint, Id=0016F00002o0fjBQAQ}, Account:{Name=United Oil & Gas, UK, Id=0016F00002o0fj9QAA}, Account:{Name=United Oil & Gas, Singapore, Id=0016F00002o0fjAQAQ}, Account:{Name=Edge Communications, Id=0016F00002o0fj1QAA}, Account:{Name=Burlington Textiles Corp of America, Id=0016F00002o0fj2QAA}, Account:{Name=Pyramid Construction Inc., Id=0016F00002o0fj3QAA}, Account:{Name=Dickenson plc, Id=0016F00002o0fj4QAA}, ...)
+03:11:05.1 (22209316)|HEAP_ALLOCATE|[16]|Bytes:4
+03:11:05.1 (22215858)|VARIABLE_ASSIGNMENT|[16]|i|4
+03:11:05.1 (22229625)|STATEMENT_EXECUTE|[16]
+03:11:05.1 (22231412)|STATEMENT_EXECUTE|[17]
+03:11:05.1 (22292318)|USER_DEBUG|[17]|DEBUG|(Account:{Name=sForce, Id=0016F00002o0fjCQAQ}, Account:{Name=University of Arizona, Id=0016F00002o0fj8QAA}, Account:{Name=United Oil & Gas Corp., Id=0016F00002o0fj6QAA}, Account:{Name=GenePoint, Id=0016F00002o0fjBQAQ}, Account:{Name=United Oil & Gas, UK, Id=0016F00002o0fj9QAA}, Account:{Name=United Oil & Gas, Singapore, Id=0016F00002o0fjAQAQ}, Account:{Name=Edge Communications, Id=0016F00002o0fj1QAA}, Account:{Name=Burlington Textiles Corp of America, Id=0016F00002o0fj2QAA}, Account:{Name=Pyramid Construction Inc., Id=0016F00002o0fj3QAA}, Account:{Name=Dickenson plc, Id=0016F00002o0fj4QAA}, ...)
+03:11:05.1 (22306802)|HEAP_ALLOCATE|[16]|Bytes:4
+03:11:05.1 (22313311)|VARIABLE_ASSIGNMENT|[16]|i|5
+03:11:05.1 (22323214)|STATEMENT_EXECUTE|[16]
+03:11:05.1 (22324956)|STATEMENT_EXECUTE|[17]
+03:11:05.1 (22384937)|USER_DEBUG|[17]|DEBUG|(Account:{Name=sForce, Id=0016F00002o0fjCQAQ}, Account:{Name=University of Arizona, Id=0016F00002o0fj8QAA}, Account:{Name=United Oil & Gas Corp., Id=0016F00002o0fj6QAA}, Account:{Name=GenePoint, Id=0016F00002o0fjBQAQ}, Account:{Name=United Oil & Gas, UK, Id=0016F00002o0fj9QAA}, Account:{Name=United Oil & Gas, Singapore, Id=0016F00002o0fjAQAQ}, Account:{Name=Edge Communications, Id=0016F00002o0fj1QAA}, Account:{Name=Burlington Textiles Corp of America, Id=0016F00002o0fj2QAA}, Account:{Name=Pyramid Construction Inc., Id=0016F00002o0fj3QAA}, Account:{Name=Dickenson plc, Id=0016F00002o0fj4QAA}, ...)
+03:11:05.1 (22399478)|HEAP_ALLOCATE|[16]|Bytes:4
+03:11:05.1 (22406566)|VARIABLE_ASSIGNMENT|[16]|i|6
+03:11:05.1 (22417310)|STATEMENT_EXECUTE|[16]
+03:11:05.1 (22419215)|STATEMENT_EXECUTE|[17]
+03:11:05.1 (22478869)|USER_DEBUG|[17]|DEBUG|(Account:{Name=sForce, Id=0016F00002o0fjCQAQ}, Account:{Name=University of Arizona, Id=0016F00002o0fj8QAA}, Account:{Name=United Oil & Gas Corp., Id=0016F00002o0fj6QAA}, Account:{Name=GenePoint, Id=0016F00002o0fjBQAQ}, Account:{Name=United Oil & Gas, UK, Id=0016F00002o0fj9QAA}, Account:{Name=United Oil & Gas, Singapore, Id=0016F00002o0fjAQAQ}, Account:{Name=Edge Communications, Id=0016F00002o0fj1QAA}, Account:{Name=Burlington Textiles Corp of America, Id=0016F00002o0fj2QAA}, Account:{Name=Pyramid Construction Inc., Id=0016F00002o0fj3QAA}, Account:{Name=Dickenson plc, Id=0016F00002o0fj4QAA}, ...)
+03:11:05.1 (22492465)|HEAP_ALLOCATE|[16]|Bytes:4
+03:11:05.1 (22499210)|VARIABLE_ASSIGNMENT|[16]|i|7
+03:11:05.1 (22509615)|STATEMENT_EXECUTE|[16]
+03:11:05.1 (22511400)|STATEMENT_EXECUTE|[17]
+03:11:05.1 (22570094)|USER_DEBUG|[17]|DEBUG|(Account:{Name=sForce, Id=0016F00002o0fjCQAQ}, Account:{Name=University of Arizona, Id=0016F00002o0fj8QAA}, Account:{Name=United Oil & Gas Corp., Id=0016F00002o0fj6QAA}, Account:{Name=GenePoint, Id=0016F00002o0fjBQAQ}, Account:{Name=United Oil & Gas, UK, Id=0016F00002o0fj9QAA}, Account:{Name=United Oil & Gas, Singapore, Id=0016F00002o0fjAQAQ}, Account:{Name=Edge Communications, Id=0016F00002o0fj1QAA}, Account:{Name=Burlington Textiles Corp of America, Id=0016F00002o0fj2QAA}, Account:{Name=Pyramid Construction Inc., Id=0016F00002o0fj3QAA}, Account:{Name=Dickenson plc, Id=0016F00002o0fj4QAA}, ...)
+03:11:05.1 (22584296)|HEAP_ALLOCATE|[16]|Bytes:4
+03:11:05.1 (22590993)|VARIABLE_ASSIGNMENT|[16]|i|8
+03:11:05.1 (22600942)|STATEMENT_EXECUTE|[16]
+03:11:05.1 (22602732)|STATEMENT_EXECUTE|[17]
+03:11:05.1 (22666318)|USER_DEBUG|[17]|DEBUG|(Account:{Name=sForce, Id=0016F00002o0fjCQAQ}, Account:{Name=University of Arizona, Id=0016F00002o0fj8QAA}, Account:{Name=United Oil & Gas Corp., Id=0016F00002o0fj6QAA}, Account:{Name=GenePoint, Id=0016F00002o0fjBQAQ}, Account:{Name=United Oil & Gas, UK, Id=0016F00002o0fj9QAA}, Account:{Name=United Oil & Gas, Singapore, Id=0016F00002o0fjAQAQ}, Account:{Name=Edge Communications, Id=0016F00002o0fj1QAA}, Account:{Name=Burlington Textiles Corp of America, Id=0016F00002o0fj2QAA}, Account:{Name=Pyramid Construction Inc., Id=0016F00002o0fj3QAA}, Account:{Name=Dickenson plc, Id=0016F00002o0fj4QAA}, ...)
+03:11:05.1 (22681667)|HEAP_ALLOCATE|[16]|Bytes:4
+03:11:05.1 (22688424)|VARIABLE_ASSIGNMENT|[16]|i|9
+03:11:05.1 (22698624)|STATEMENT_EXECUTE|[16]
+03:11:05.1 (22700514)|STATEMENT_EXECUTE|[17]
+03:11:05.1 (22759814)|USER_DEBUG|[17]|DEBUG|(Account:{Name=sForce, Id=0016F00002o0fjCQAQ}, Account:{Name=University of Arizona, Id=0016F00002o0fj8QAA}, Account:{Name=United Oil & Gas Corp., Id=0016F00002o0fj6QAA}, Account:{Name=GenePoint, Id=0016F00002o0fjBQAQ}, Account:{Name=United Oil & Gas, UK, Id=0016F00002o0fj9QAA}, Account:{Name=United Oil & Gas, Singapore, Id=0016F00002o0fjAQAQ}, Account:{Name=Edge Communications, Id=0016F00002o0fj1QAA}, Account:{Name=Burlington Textiles Corp of America, Id=0016F00002o0fj2QAA}, Account:{Name=Pyramid Construction Inc., Id=0016F00002o0fj3QAA}, Account:{Name=Dickenson plc, Id=0016F00002o0fj4QAA}, ...)
+03:11:05.1 (22773852)|HEAP_ALLOCATE|[16]|Bytes:4
+03:11:05.1 (22780527)|VARIABLE_ASSIGNMENT|[16]|i|10
+03:11:05.1 (22790877)|STATEMENT_EXECUTE|[16]
+03:11:05.1 (22792746)|STATEMENT_EXECUTE|[17]
+03:11:05.1 (22865958)|USER_DEBUG|[17]|DEBUG|(Account:{Name=sForce, Id=0016F00002o0fjCQAQ}, Account:{Name=University of Arizona, Id=0016F00002o0fj8QAA}, Account:{Name=United Oil & Gas Corp., Id=0016F00002o0fj6QAA}, Account:{Name=GenePoint, Id=0016F00002o0fjBQAQ}, Account:{Name=United Oil & Gas, UK, Id=0016F00002o0fj9QAA}, Account:{Name=United Oil & Gas, Singapore, Id=0016F00002o0fjAQAQ}, Account:{Name=Edge Communications, Id=0016F00002o0fj1QAA}, Account:{Name=Burlington Textiles Corp of America, Id=0016F00002o0fj2QAA}, Account:{Name=Pyramid Construction Inc., Id=0016F00002o0fj3QAA}, Account:{Name=Dickenson plc, Id=0016F00002o0fj4QAA}, ...)
+03:11:05.1 (22881731)|HEAP_ALLOCATE|[16]|Bytes:4
+03:11:05.1 (22888664)|VARIABLE_ASSIGNMENT|[16]|i|11
+03:11:05.1 (22902075)|STATEMENT_EXECUTE|[16]
+03:11:05.1 (22903958)|STATEMENT_EXECUTE|[17]
+03:11:05.1 (22965212)|USER_DEBUG|[17]|DEBUG|(Account:{Name=sForce, Id=0016F00002o0fjCQAQ}, Account:{Name=University of Arizona, Id=0016F00002o0fj8QAA}, Account:{Name=United Oil & Gas Corp., Id=0016F00002o0fj6QAA}, Account:{Name=GenePoint, Id=0016F00002o0fjBQAQ}, Account:{Name=United Oil & Gas, UK, Id=0016F00002o0fj9QAA}, Account:{Name=United Oil & Gas, Singapore, Id=0016F00002o0fjAQAQ}, Account:{Name=Edge Communications, Id=0016F00002o0fj1QAA}, Account:{Name=Burlington Textiles Corp of America, Id=0016F00002o0fj2QAA}, Account:{Name=Pyramid Construction Inc., Id=0016F00002o0fj3QAA}, Account:{Name=Dickenson plc, Id=0016F00002o0fj4QAA}, ...)
+03:11:05.1 (22982221)|HEAP_ALLOCATE|[16]|Bytes:4
+03:11:05.1 (22988975)|VARIABLE_ASSIGNMENT|[16]|i|12
+03:11:05.1 (22999413)|STATEMENT_EXECUTE|[16]
+03:11:05.1 (23001637)|STATEMENT_EXECUTE|[17]
+03:11:05.1 (23061920)|USER_DEBUG|[17]|DEBUG|(Account:{Name=sForce, Id=0016F00002o0fjCQAQ}, Account:{Name=University of Arizona, Id=0016F00002o0fj8QAA}, Account:{Name=United Oil & Gas Corp., Id=0016F00002o0fj6QAA}, Account:{Name=GenePoint, Id=0016F00002o0fjBQAQ}, Account:{Name=United Oil & Gas, UK, Id=0016F00002o0fj9QAA}, Account:{Name=United Oil & Gas, Singapore, Id=0016F00002o0fjAQAQ}, Account:{Name=Edge Communications, Id=0016F00002o0fj1QAA}, Account:{Name=Burlington Textiles Corp of America, Id=0016F00002o0fj2QAA}, Account:{Name=Pyramid Construction Inc., Id=0016F00002o0fj3QAA}, Account:{Name=Dickenson plc, Id=0016F00002o0fj4QAA}, ...)
+03:11:05.1 (23076227)|HEAP_ALLOCATE|[16]|Bytes:4
+03:11:05.1 (23082891)|VARIABLE_ASSIGNMENT|[16]|i|13
+03:11:05.1 (23093296)|STATEMENT_EXECUTE|[16]
+03:11:05.1 (23095089)|STATEMENT_EXECUTE|[17]
+03:11:05.1 (23158660)|USER_DEBUG|[17]|DEBUG|(Account:{Name=sForce, Id=0016F00002o0fjCQAQ}, Account:{Name=University of Arizona, Id=0016F00002o0fj8QAA}, Account:{Name=United Oil & Gas Corp., Id=0016F00002o0fj6QAA}, Account:{Name=GenePoint, Id=0016F00002o0fjBQAQ}, Account:{Name=United Oil & Gas, UK, Id=0016F00002o0fj9QAA}, Account:{Name=United Oil & Gas, Singapore, Id=0016F00002o0fjAQAQ}, Account:{Name=Edge Communications, Id=0016F00002o0fj1QAA}, Account:{Name=Burlington Textiles Corp of America, Id=0016F00002o0fj2QAA}, Account:{Name=Pyramid Construction Inc., Id=0016F00002o0fj3QAA}, Account:{Name=Dickenson plc, Id=0016F00002o0fj4QAA}, ...)
+03:11:05.1 (23193022)|HEAP_ALLOCATE|[16]|Bytes:4
+03:11:05.1 (23200947)|VARIABLE_ASSIGNMENT|[16]|i|14
+03:11:05.1 (23217881)|METHOD_EXIT|[3]|01p6F00000MR33H|AccountProgram.queryOnAccount2()
+03:11:05.1 (23224532)|SYSTEM_MODE_EXIT|false
+03:11:05.1 (23232205)|STATEMENT_EXECUTE|[4]
+03:11:05.1 (23264786)|SYSTEM_MODE_ENTER|false
+03:11:05.1 (23279360)|HEAP_ALLOCATE|[4]|Bytes:5
+03:11:05.1 (23292531)|METHOD_ENTRY|[4]|01p6F00000MR33H|AccountProgram.queryOnAccount3()
+03:11:05.1 (23317217)|VARIABLE_SCOPE_BEGIN|[21]|this|AccountProgram|true|false
+03:11:05.1 (23349826)|VARIABLE_ASSIGNMENT|[21]|this|{}|0x22a9873e
+03:11:05.1 (23363095)|HEAP_ALLOCATE|[23]|Bytes:5
+03:11:05.1 (23367832)|STATEMENT_EXECUTE|[21]
+03:11:05.1 (23370169)|STATEMENT_EXECUTE|[23]
+03:11:05.1 (23384381)|HEAP_ALLOCATE|[23]|Bytes:4
+03:11:05.1 (23483942)|SOQL_EXECUTE_BEGIN|[23]|Aggregations:0|SELECT Name FROM Account
+03:11:05.1 (25980034)|SOQL_EXECUTE_END|[23]|Rows:14
+03:11:05.1 (26003738)|HEAP_ALLOCATE|[23]|Bytes:60
+03:11:05.1 (26029995)|HEAP_ALLOCATE|[23]|Bytes:782
+03:11:05.1 (26056547)|HEAP_ALLOCATE|[23]|Bytes:60
+03:11:05.1 (26066385)|VARIABLE_SCOPE_BEGIN|[23]|AccName3|List<Account>|true|false
+03:11:05.1 (26083854)|VARIABLE_ASSIGNMENT|[23]|AccName3|"List of size 14 too large to display"|0x2732746f
+03:11:05.1 (26090504)|STATEMENT_EXECUTE|[24]
+03:11:05.1 (26094924)|VARIABLE_SCOPE_BEGIN|[24]|i|Integer|false|false
+03:11:05.1 (26101493)|HEAP_ALLOCATE|[24]|Bytes:4
+03:11:05.1 (26108484)|VARIABLE_ASSIGNMENT|[24]|i|0
+03:11:05.1 (26113112)|STATEMENT_EXECUTE|[25]
+03:11:05.1 (26116776)|HEAP_ALLOCATE|[25]|Bytes:10
+03:11:05.1 (26143414)|USER_DEBUG|[25]|DEBUG|While Loop
+03:11:05.1 (26174762)|STATEMENT_EXECUTE|[26]
+03:11:05.1 (26177022)|STATEMENT_EXECUTE|[27]
+03:11:05.1 (26268132)|USER_DEBUG|[27]|DEBUG|(Account:{Name=sForce, Id=0016F00002o0fjCQAQ}, Account:{Name=University of Arizona, Id=0016F00002o0fj8QAA}, Account:{Name=United Oil & Gas Corp., Id=0016F00002o0fj6QAA}, Account:{Name=GenePoint, Id=0016F00002o0fjBQAQ}, Account:{Name=United Oil & Gas, UK, Id=0016F00002o0fj9QAA}, Account:{Name=United Oil & Gas, Singapore, Id=0016F00002o0fjAQAQ}, Account:{Name=Edge Communications, Id=0016F00002o0fj1QAA}, Account:{Name=Burlington Textiles Corp of America, Id=0016F00002o0fj2QAA}, Account:{Name=Pyramid Construction Inc., Id=0016F00002o0fj3QAA}, Account:{Name=Dickenson plc, Id=0016F00002o0fj4QAA}, ...)
+03:11:05.1 (26286047)|STATEMENT_EXECUTE|[28]
+03:11:05.1 (26288917)|HEAP_ALLOCATE|[28]|Bytes:4
+03:11:05.1 (26297961)|VARIABLE_ASSIGNMENT|[28]|i|1
+03:11:05.1 (26311514)|STATEMENT_EXECUTE|[26]
+03:11:05.1 (26313273)|STATEMENT_EXECUTE|[27]
+03:11:05.1 (26378537)|USER_DEBUG|[27]|DEBUG|(Account:{Name=sForce, Id=0016F00002o0fjCQAQ}, Account:{Name=University of Arizona, Id=0016F00002o0fj8QAA}, Account:{Name=United Oil & Gas Corp., Id=0016F00002o0fj6QAA}, Account:{Name=GenePoint, Id=0016F00002o0fjBQAQ}, Account:{Name=United Oil & Gas, UK, Id=0016F00002o0fj9QAA}, Account:{Name=United Oil & Gas, Singapore, Id=0016F00002o0fjAQAQ}, Account:{Name=Edge Communications, Id=0016F00002o0fj1QAA}, Account:{Name=Burlington Textiles Corp of America, Id=0016F00002o0fj2QAA}, Account:{Name=Pyramid Construction Inc., Id=0016F00002o0fj3QAA}, Account:{Name=Dickenson plc, Id=0016F00002o0fj4QAA}, ...)
+03:11:05.1 (26393797)|STATEMENT_EXECUTE|[28]
+03:11:05.1 (26396299)|HEAP_ALLOCATE|[28]|Bytes:4
+03:11:05.1 (26403319)|VARIABLE_ASSIGNMENT|[28]|i|2
+03:11:05.1 (26414117)|STATEMENT_EXECUTE|[26]
+03:11:05.1 (26415882)|STATEMENT_EXECUTE|[27]
+03:11:05.1 (26477506)|USER_DEBUG|[27]|DEBUG|(Account:{Name=sForce, Id=0016F00002o0fjCQAQ}, Account:{Name=University of Arizona, Id=0016F00002o0fj8QAA}, Account:{Name=United Oil & Gas Corp., Id=0016F00002o0fj6QAA}, Account:{Name=GenePoint, Id=0016F00002o0fjBQAQ}, Account:{Name=United Oil & Gas, UK, Id=0016F00002o0fj9QAA}, Account:{Name=United Oil & Gas, Singapore, Id=0016F00002o0fjAQAQ}, Account:{Name=Edge Communications, Id=0016F00002o0fj1QAA}, Account:{Name=Burlington Textiles Corp of America, Id=0016F00002o0fj2QAA}, Account:{Name=Pyramid Construction Inc., Id=0016F00002o0fj3QAA}, Account:{Name=Dickenson plc, Id=0016F00002o0fj4QAA}, ...)
+03:11:05.1 (26491984)|STATEMENT_EXECUTE|[28]
+03:11:05.1 (26494363)|HEAP_ALLOCATE|[28]|Bytes:4
+03:11:05.1 (26500916)|VARIABLE_ASSIGNMENT|[28]|i|3
+03:11:05.1 (26511993)|STATEMENT_EXECUTE|[26]
+03:11:05.1 (26513756)|STATEMENT_EXECUTE|[27]
+03:11:05.1 (26573925)|USER_DEBUG|[27]|DEBUG|(Account:{Name=sForce, Id=0016F00002o0fjCQAQ}, Account:{Name=University of Arizona, Id=0016F00002o0fj8QAA}, Account:{Name=United Oil & Gas Corp., Id=0016F00002o0fj6QAA}, Account:{Name=GenePoint, Id=0016F00002o0fjBQAQ}, Account:{Name=United Oil & Gas, UK, Id=0016F00002o0fj9QAA}, Account:{Name=United Oil & Gas, Singapore, Id=0016F00002o0fjAQAQ}, Account:{Name=Edge Communications, Id=0016F00002o0fj1QAA}, Account:{Name=Burlington Textiles Corp of America, Id=0016F00002o0fj2QAA}, Account:{Name=Pyramid Construction Inc., Id=0016F00002o0fj3QAA}, Account:{Name=Dickenson plc, Id=0016F00002o0fj4QAA}, ...)
+03:11:05.1 (26588532)|STATEMENT_EXECUTE|[28]
+03:11:05.1 (26590930)|HEAP_ALLOCATE|[28]|Bytes:4
+03:11:05.1 (26597547)|VARIABLE_ASSIGNMENT|[28]|i|4
+03:11:05.1 (26607990)|STATEMENT_EXECUTE|[26]
+03:11:05.1 (26609792)|STATEMENT_EXECUTE|[27]
+03:11:05.1 (26676486)|USER_DEBUG|[27]|DEBUG|(Account:{Name=sForce, Id=0016F00002o0fjCQAQ}, Account:{Name=University of Arizona, Id=0016F00002o0fj8QAA}, Account:{Name=United Oil & Gas Corp., Id=0016F00002o0fj6QAA}, Account:{Name=GenePoint, Id=0016F00002o0fjBQAQ}, Account:{Name=United Oil & Gas, UK, Id=0016F00002o0fj9QAA}, Account:{Name=United Oil & Gas, Singapore, Id=0016F00002o0fjAQAQ}, Account:{Name=Edge Communications, Id=0016F00002o0fj1QAA}, Account:{Name=Burlington Textiles Corp of America, Id=0016F00002o0fj2QAA}, Account:{Name=Pyramid Construction Inc., Id=0016F00002o0fj3QAA}, Account:{Name=Dickenson plc, Id=0016F00002o0fj4QAA}, ...)
+03:11:05.1 (26690991)|STATEMENT_EXECUTE|[28]
+03:11:05.1 (26693628)|HEAP_ALLOCATE|[28]|Bytes:4
+03:11:05.1 (26700877)|VARIABLE_ASSIGNMENT|[28]|i|5
+03:11:05.1 (26711456)|STATEMENT_EXECUTE|[26]
+03:11:05.1 (26713221)|STATEMENT_EXECUTE|[27]
+03:11:05.1 (26773418)|USER_DEBUG|[27]|DEBUG|(Account:{Name=sForce, Id=0016F00002o0fjCQAQ}, Account:{Name=University of Arizona, Id=0016F00002o0fj8QAA}, Account:{Name=United Oil & Gas Corp., Id=0016F00002o0fj6QAA}, Account:{Name=GenePoint, Id=0016F00002o0fjBQAQ}, Account:{Name=United Oil & Gas, UK, Id=0016F00002o0fj9QAA}, Account:{Name=United Oil & Gas, Singapore, Id=0016F00002o0fjAQAQ}, Account:{Name=Edge Communications, Id=0016F00002o0fj1QAA}, Account:{Name=Burlington Textiles Corp of America, Id=0016F00002o0fj2QAA}, Account:{Name=Pyramid Construction Inc., Id=0016F00002o0fj3QAA}, Account:{Name=Dickenson plc, Id=0016F00002o0fj4QAA}, ...)
+03:11:05.1 (26787497)|STATEMENT_EXECUTE|[28]
+03:11:05.1 (26789657)|HEAP_ALLOCATE|[28]|Bytes:4
+03:11:05.1 (26796180)|VARIABLE_ASSIGNMENT|[28]|i|6
+03:11:05.1 (26806479)|STATEMENT_EXECUTE|[26]
+03:11:05.1 (26808719)|STATEMENT_EXECUTE|[27]
+03:11:05.1 (26868247)|USER_DEBUG|[27]|DEBUG|(Account:{Name=sForce, Id=0016F00002o0fjCQAQ}, Account:{Name=University of Arizona, Id=0016F00002o0fj8QAA}, Account:{Name=United Oil & Gas Corp., Id=0016F00002o0fj6QAA}, Account:{Name=GenePoint, Id=0016F00002o0fjBQAQ}, Account:{Name=United Oil & Gas, UK, Id=0016F00002o0fj9QAA}, Account:{Name=United Oil & Gas, Singapore, Id=0016F00002o0fjAQAQ}, Account:{Name=Edge Communications, Id=0016F00002o0fj1QAA}, Account:{Name=Burlington Textiles Corp of America, Id=0016F00002o0fj2QAA}, Account:{Name=Pyramid Construction Inc., Id=0016F00002o0fj3QAA}, Account:{Name=Dickenson plc, Id=0016F00002o0fj4QAA}, ...)
+03:11:05.1 (26882367)|STATEMENT_EXECUTE|[28]
+03:11:05.1 (26884625)|HEAP_ALLOCATE|[28]|Bytes:4
+03:11:05.1 (26891050)|VARIABLE_ASSIGNMENT|[28]|i|7
+03:11:05.1 (26901451)|STATEMENT_EXECUTE|[26]
+03:11:05.1 (26903194)|STATEMENT_EXECUTE|[27]
+03:11:05.1 (26962340)|USER_DEBUG|[27]|DEBUG|(Account:{Name=sForce, Id=0016F00002o0fjCQAQ}, Account:{Name=University of Arizona, Id=0016F00002o0fj8QAA}, Account:{Name=United Oil & Gas Corp., Id=0016F00002o0fj6QAA}, Account:{Name=GenePoint, Id=0016F00002o0fjBQAQ}, Account:{Name=United Oil & Gas, UK, Id=0016F00002o0fj9QAA}, Account:{Name=United Oil & Gas, Singapore, Id=0016F00002o0fjAQAQ}, Account:{Name=Edge Communications, Id=0016F00002o0fj1QAA}, Account:{Name=Burlington Textiles Corp of America, Id=0016F00002o0fj2QAA}, Account:{Name=Pyramid Construction Inc., Id=0016F00002o0fj3QAA}, Account:{Name=Dickenson plc, Id=0016F00002o0fj4QAA}, ...)
+03:11:05.1 (26976167)|STATEMENT_EXECUTE|[28]
+03:11:05.1 (26978511)|HEAP_ALLOCATE|[28]|Bytes:4
+03:11:05.1 (26984697)|VARIABLE_ASSIGNMENT|[28]|i|8
+03:11:05.1 (26994754)|STATEMENT_EXECUTE|[26]
+03:11:05.1 (26996535)|STATEMENT_EXECUTE|[27]
+03:11:05.1 (27055829)|USER_DEBUG|[27]|DEBUG|(Account:{Name=sForce, Id=0016F00002o0fjCQAQ}, Account:{Name=University of Arizona, Id=0016F00002o0fj8QAA}, Account:{Name=United Oil & Gas Corp., Id=0016F00002o0fj6QAA}, Account:{Name=GenePoint, Id=0016F00002o0fjBQAQ}, Account:{Name=United Oil & Gas, UK, Id=0016F00002o0fj9QAA}, Account:{Name=United Oil & Gas, Singapore, Id=0016F00002o0fjAQAQ}, Account:{Name=Edge Communications, Id=0016F00002o0fj1QAA}, Account:{Name=Burlington Textiles Corp of America, Id=0016F00002o0fj2QAA}, Account:{Name=Pyramid Construction Inc., Id=0016F00002o0fj3QAA}, Account:{Name=Dickenson plc, Id=0016F00002o0fj4QAA}, ...)
+03:11:05.1 (27071010)|STATEMENT_EXECUTE|[28]
+03:11:05.1 (27073365)|HEAP_ALLOCATE|[28]|Bytes:4
+03:11:05.1 (27079727)|VARIABLE_ASSIGNMENT|[28]|i|9
+03:11:05.1 (27089800)|STATEMENT_EXECUTE|[26]
+03:11:05.1 (27091687)|STATEMENT_EXECUTE|[27]
+03:11:05.1 (27150914)|USER_DEBUG|[27]|DEBUG|(Account:{Name=sForce, Id=0016F00002o0fjCQAQ}, Account:{Name=University of Arizona, Id=0016F00002o0fj8QAA}, Account:{Name=United Oil & Gas Corp., Id=0016F00002o0fj6QAA}, Account:{Name=GenePoint, Id=0016F00002o0fjBQAQ}, Account:{Name=United Oil & Gas, UK, Id=0016F00002o0fj9QAA}, Account:{Name=United Oil & Gas, Singapore, Id=0016F00002o0fjAQAQ}, Account:{Name=Edge Communications, Id=0016F00002o0fj1QAA}, Account:{Name=Burlington Textiles Corp of America, Id=0016F00002o0fj2QAA}, Account:{Name=Pyramid Construction Inc., Id=0016F00002o0fj3QAA}, Account:{Name=Dickenson plc, Id=0016F00002o0fj4QAA}, ...)
+03:11:05.1 (27164686)|STATEMENT_EXECUTE|[28]
+03:11:05.1 (27166973)|HEAP_ALLOCATE|[28]|Bytes:4
+03:11:05.1 (27173736)|VARIABLE_ASSIGNMENT|[28]|i|10
+03:11:05.1 (27184135)|STATEMENT_EXECUTE|[26]
+03:11:05.1 (27185895)|STATEMENT_EXECUTE|[27]
+03:11:05.1 (27244376)|USER_DEBUG|[27]|DEBUG|(Account:{Name=sForce, Id=0016F00002o0fjCQAQ}, Account:{Name=University of Arizona, Id=0016F00002o0fj8QAA}, Account:{Name=United Oil & Gas Corp., Id=0016F00002o0fj6QAA}, Account:{Name=GenePoint, Id=0016F00002o0fjBQAQ}, Account:{Name=United Oil & Gas, UK, Id=0016F00002o0fj9QAA}, Account:{Name=United Oil & Gas, Singapore, Id=0016F00002o0fjAQAQ}, Account:{Name=Edge Communications, Id=0016F00002o0fj1QAA}, Account:{Name=Burlington Textiles Corp of America, Id=0016F00002o0fj2QAA}, Account:{Name=Pyramid Construction Inc., Id=0016F00002o0fj3QAA}, Account:{Name=Dickenson plc, Id=0016F00002o0fj4QAA}, ...)
+03:11:05.1 (27258332)|STATEMENT_EXECUTE|[28]
+03:11:05.1 (27260624)|HEAP_ALLOCATE|[28]|Bytes:4
+03:11:05.1 (27266949)|VARIABLE_ASSIGNMENT|[28]|i|11
+03:11:05.1 (27277216)|STATEMENT_EXECUTE|[26]
+03:11:05.1 (27278923)|STATEMENT_EXECUTE|[27]
+03:11:05.1 (27337898)|USER_DEBUG|[27]|DEBUG|(Account:{Name=sForce, Id=0016F00002o0fjCQAQ}, Account:{Name=University of Arizona, Id=0016F00002o0fj8QAA}, Account:{Name=United Oil & Gas Corp., Id=0016F00002o0fj6QAA}, Account:{Name=GenePoint, Id=0016F00002o0fjBQAQ}, Account:{Name=United Oil & Gas, UK, Id=0016F00002o0fj9QAA}, Account:{Name=United Oil & Gas, Singapore, Id=0016F00002o0fjAQAQ}, Account:{Name=Edge Communications, Id=0016F00002o0fj1QAA}, Account:{Name=Burlington Textiles Corp of America, Id=0016F00002o0fj2QAA}, Account:{Name=Pyramid Construction Inc., Id=0016F00002o0fj3QAA}, Account:{Name=Dickenson plc, Id=0016F00002o0fj4QAA}, ...)
+03:11:05.1 (27352075)|STATEMENT_EXECUTE|[28]
+03:11:05.1 (27354230)|HEAP_ALLOCATE|[28]|Bytes:4
+03:11:05.1 (27360494)|VARIABLE_ASSIGNMENT|[28]|i|12
+03:11:05.1 (27371333)|STATEMENT_EXECUTE|[26]
+03:11:05.1 (27373074)|STATEMENT_EXECUTE|[27]
+03:11:05.1 (27431786)|USER_DEBUG|[27]|DEBUG|(Account:{Name=sForce, Id=0016F00002o0fjCQAQ}, Account:{Name=University of Arizona, Id=0016F00002o0fj8QAA}, Account:{Name=United Oil & Gas Corp., Id=0016F00002o0fj6QAA}, Account:{Name=GenePoint, Id=0016F00002o0fjBQAQ}, Account:{Name=United Oil & Gas, UK, Id=0016F00002o0fj9QAA}, Account:{Name=United Oil & Gas, Singapore, Id=0016F00002o0fjAQAQ}, Account:{Name=Edge Communications, Id=0016F00002o0fj1QAA}, Account:{Name=Burlington Textiles Corp of America, Id=0016F00002o0fj2QAA}, Account:{Name=Pyramid Construction Inc., Id=0016F00002o0fj3QAA}, Account:{Name=Dickenson plc, Id=0016F00002o0fj4QAA}, ...)
+03:11:05.1 (27445803)|STATEMENT_EXECUTE|[28]
+03:11:05.1 (27448247)|HEAP_ALLOCATE|[28]|Bytes:4
+03:11:05.1 (27454566)|VARIABLE_ASSIGNMENT|[28]|i|13
+03:11:05.1 (27464833)|STATEMENT_EXECUTE|[26]
+03:11:05.1 (27466587)|STATEMENT_EXECUTE|[27]
+03:11:05.1 (27526125)|USER_DEBUG|[27]|DEBUG|(Account:{Name=sForce, Id=0016F00002o0fjCQAQ}, Account:{Name=University of Arizona, Id=0016F00002o0fj8QAA}, Account:{Name=United Oil & Gas Corp., Id=0016F00002o0fj6QAA}, Account:{Name=GenePoint, Id=0016F00002o0fjBQAQ}, Account:{Name=United Oil & Gas, UK, Id=0016F00002o0fj9QAA}, Account:{Name=United Oil & Gas, Singapore, Id=0016F00002o0fjAQAQ}, Account:{Name=Edge Communications, Id=0016F00002o0fj1QAA}, Account:{Name=Burlington Textiles Corp of America, Id=0016F00002o0fj2QAA}, Account:{Name=Pyramid Construction Inc., Id=0016F00002o0fj3QAA}, Account:{Name=Dickenson plc, Id=0016F00002o0fj4QAA}, ...)
+03:11:05.1 (27540109)|STATEMENT_EXECUTE|[28]
+03:11:05.1 (27542346)|HEAP_ALLOCATE|[28]|Bytes:4
+03:11:05.1 (27548973)|VARIABLE_ASSIGNMENT|[28]|i|14
+03:11:05.1 (27564345)|METHOD_EXIT|[4]|01p6F00000MR33H|AccountProgram.queryOnAccount3()
+03:11:05.1 (27571004)|SYSTEM_MODE_EXIT|false
+03:11:05.27 (27598071)|CUMULATIVE_LIMIT_USAGE
+03:11:05.27 (27598071)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 3 out of 100
+  Number of query rows: 42 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+03:11:05.27 (27598071)|CUMULATIVE_LIMIT_USAGE_END
+
+03:11:05.1 (27633685)|CODE_UNIT_FINISHED|execute_anonymous_apex
+03:11:05.1 (29001120)|EXECUTION_FINISHED

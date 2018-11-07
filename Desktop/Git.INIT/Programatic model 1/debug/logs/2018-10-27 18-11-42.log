@@ -1,0 +1,51 @@
+44.0 APEX_CODE,FINEST;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;NBA,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,INFO;WAVE,INFO;WORKFLOW,INFO
+Execute Anonymous: ParentClass obj1, obj2;
+Execute Anonymous: obj2.ParentClassAdd();
+05:41:40.1 (1103549)|USER_INFO|[EXTERNAL]|0056F00000ATCAZ|ayman.shaikh@gmail.com|Pacific Standard Time|GMT-07:00
+05:41:40.1 (1126298)|EXECUTION_STARTED
+05:41:40.1 (1130337)|CODE_UNIT_STARTED|[EXTERNAL]|execute_anonymous_apex
+05:41:40.1 (7114564)|VARIABLE_SCOPE_BEGIN|[1]|obj1|ParentClass|true|false
+05:41:40.1 (7132344)|VARIABLE_SCOPE_BEGIN|[1]|obj2|ParentClass|true|false
+05:41:40.1 (7246938)|HEAP_ALLOCATE|[72]|Bytes:3
+05:41:40.1 (7285221)|HEAP_ALLOCATE|[77]|Bytes:152
+05:41:40.1 (7299628)|HEAP_ALLOCATE|[342]|Bytes:408
+05:41:40.1 (7312203)|HEAP_ALLOCATE|[355]|Bytes:408
+05:41:40.1 (7323214)|HEAP_ALLOCATE|[467]|Bytes:48
+05:41:40.1 (7348341)|HEAP_ALLOCATE|[139]|Bytes:6
+05:41:40.1 (7372337)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:3
+05:41:40.1 (7399736)|STATEMENT_EXECUTE|[1]
+05:41:40.1 (7402613)|STATEMENT_EXECUTE|[1]
+05:41:40.1 (7420857)|VARIABLE_ASSIGNMENT|[1]|obj1|null|
+05:41:40.1 (7426203)|STATEMENT_EXECUTE|[1]
+05:41:40.1 (7431025)|VARIABLE_ASSIGNMENT|[1]|obj2|null|
+05:41:40.1 (7434902)|STATEMENT_EXECUTE|[2]
+05:41:40.1 (7478769)|HEAP_ALLOCATE|[50]|Bytes:5
+05:41:40.1 (7500728)|HEAP_ALLOCATE|[56]|Bytes:5
+05:41:40.1 (7508575)|HEAP_ALLOCATE|[64]|Bytes:7
+05:41:40.1 (7525879)|SYSTEM_MODE_ENTER|false
+05:41:40.1 (7555025)|HEAP_ALLOCATE|[2]|Bytes:5
+05:41:40.1 (7602026)|HEAP_ALLOCATE|[2]|Bytes:41
+05:41:40.1 (7616672)|SYSTEM_MODE_EXIT|false
+05:41:40.1 (7708021)|FATAL_ERROR|System.NullPointerException: Attempt to de-reference a null object
+
+AnonymousBlock: line 2, column 1
+AnonymousBlock: line 2, column 1
+05:41:40.7 (7749312)|CUMULATIVE_LIMIT_USAGE
+05:41:40.7 (7749312)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+05:41:40.7 (7749312)|CUMULATIVE_LIMIT_USAGE_END
+
+05:41:40.1 (7783080)|CODE_UNIT_FINISHED|execute_anonymous_apex
+05:41:40.1 (8615422)|EXECUTION_FINISHED
